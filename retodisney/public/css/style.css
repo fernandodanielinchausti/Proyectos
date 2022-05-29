@@ -1,0 +1,485 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #040714;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    @font-face {
+        font-family: 'avenir';
+        src: url('../fonts/AvenirLTStd-Book.otf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+    
+    header {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        background: #040714;
+        justify-content: flex-end;
+        align-items: center;
+        position: fixed;
+        background-image: url(../images/originallogo.svg);
+        background-repeat: no-repeat;
+        background-size: 4%;
+    }
+    
+    nav {
+        padding-right: 36px;
+        padding-left: 36px;
+    }
+    
+    .btn1 {
+        display: inline-block;
+        max-width: 260px;
+        height: 50px;
+        cursor: pointer;
+        border-radius: 4px;
+        background-color: #0063e5;
+        margin-right: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: Avenir, sans-serif;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .btn2 {
+        display: inline-block;
+        max-width: 260px;
+        height: 50px;
+        cursor: pointer;
+        border-radius: 4px;
+        background-color: black;
+        border: white;
+        border-width: 1px;
+        border-style: solid;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: Avenir, sans-serif;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .btn1:hover {
+        background-color: #1673ee;
+        transition: all 0.2s ease-in;
+    }
+    
+    .btn2:hover {
+        background-color: white;
+        color: black;
+        transition: all 0.2s ease-in;
+    }
+    
+    .caja1 {
+        display: flex;
+        background-size: cover;
+        height: 100vh;
+        background-image: url(../images/originalportada.jfif);
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .contenidoprincipal {
+        max-width: 640px;
+        *height: 550px;
+        *background-color: chocolate;
+        padding-left: 85px;
+        color: white;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .contenido1 h3 {
+        font-family: Avenir, sans-serif;
+    }
+    
+    .logocombo {
+        background-image: url(../images/originalcombo.png);
+        width: 400px;
+        height: 163px;
+        margin-left: 116px;
+        margin-right: 116px;
+        margin-bottom: 29px;
+        background-size: cover;
+    }
+    
+    .suscribirme {
+        display: inline-block;
+        text-decoration: none;
+        width: 600px;
+        height: 68px;
+        cursor: pointer;
+        border-radius: 4px;
+        background-color: #0063ee;
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: Avenir, sans-serif;
+        text-align: center;
+        margin: 0px;
+    }
+    
+    .suscribirme:hover {
+        background-color: #1673ee;
+        transition: 0.4s;
+    }
+    
+    .suscribirme p {
+        margin-top: 23px;
+    }
+    
+    .precio p {
+        font-size: 12px;
+        line-height: 22px;
+        color: silver;
+    }
+    
+    .link {
+        color: white;
+        cursor: pointer;
+        text-decoration: underline;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .medium {
+        color: silver;
+        letter-spacing: .2px;
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 0px;
+    }
+    
+    .caja2 {
+        display: flex;
+        width: 1800px;
+        height: 650px;
+        *background-color: tan;
+        padding: 83px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .imagenizquierda {
+        background-image: url(../images/originaloplataformas.png);
+        width: 800px;
+        height: 650px;
+        background-size: cover;
+        margin-bottom: 50px;
+    }
+    
+    .textoderecho h2 {
+        font-size: 40px;
+        color: white;
+        font-family: Avenir, sans-serif;
+    }
+    
+    .textoderecho p {
+        font-size: 20px;
+        line-height: 30px;
+        color: silver;
+        font-family: Avenir, sans-serif;
+        letter-spacing: .2px;
+    }
+    
+    .caja3 {
+        display: flex;
+        margin-top: 200px;
+        width: 1800px;
+        height: 750px;
+        *background-color: tan;
+        *padding: 83px;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 75px;
+    }
+    
+    .imagenderecha {
+        background-image: url(../images/originalestrenos.jfif);
+        width: 830px;
+        height: 700px;
+        background-size: cover;
+        margin-bottom: 50px;
+    }
+    
+    .textoizquierdo p {
+        font-size: 18px;
+        color: silver;
+        font-style: normal;
+        font-weight: 100;
+        font-family: Avenir, sans-serif;
+        line-height: 28px;
+        letter-spacing: .2px;
+    }
+    
+    .suscribirme2 {
+        display: inline-block;
+        text-decoration: none;
+        width: 360px;
+        height: 68px;
+        cursor: pointer;
+        border-radius: 4px;
+        background-color: #0063ee;
+        color: #f9f9f9;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: Avenir, sans-serif;
+        font-weight: 400;
+        text-align: center;
+        margin: 0px;
+    }
+    
+    .suscribirme2:hover {
+        background-color: #1673ee;
+        transition: 0.4s;
+    }
+    
+    .suscribirme2 p {
+        margin-top: 23px;
+    }
+    
+    .caja4 {
+        display: flex;
+        width: 1500px;
+        height: 800px;
+        *background-color: tan;
+        padding: 83px;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url(../images/originalleon.png);
+        background-size: cover;
+        margin-left: 110px;
+        margin-top: 150px;
+    }
+    
+    .textoderecho2 h2 {
+        font-size: 28px;
+        color: white;
+        font-family: Avenir, sans-serif;
+        line-height: 38px;
+        margin-left: 930px;
+    }
+    
+    .textoderecho2 p {
+        font-size: 18px;
+        line-height: 28px;
+        color: silver;
+        font-family: Avenir, sans-serif;
+        letter-spacing: .2px;
+        margin-left: 930px;
+        width: 900px;
+    }
+    
+    .disponible h1 {
+        font-size: 40px;
+        color: white;
+        font-family: Avenir, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        max-height: 70px;
+        margin-top: 300px;
+    }
+    
+    .caja5 {
+        display: flex;
+        margin-left: 120px;
+        height: 650px;
+    }
+    
+    .myimg1 {
+        *display: flex;
+        *align-items: flex-end;
+        background-position: center;
+        background-image: url(../images/originaltv.png);
+        width: 372px;
+        max-height: 200px;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        margin: 30px;
+    }
+    
+    .myimg2 {
+        *display: flex;
+        *align-items: flex-end;
+        background-position: center;
+        background-image: url(../images/originalpc.png);
+        width: 372px;
+        max-height: 200px;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        margin: 30px;
+        *background-color: tomato;
+    }
+    
+    .myimg3 {
+        *display: flex;
+        *align-items: flex-end;
+        background-position: center;
+        background-image: url(../images/originalcelu.png);
+        width: 372px;
+        max-height: 200px;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        margin: 30px;
+        *background-color: tomato;
+    }
+    
+    .myimg4 {
+        *display: flex;
+        *align-items: flex-end;
+        background-position: center;
+        background-image: url(../images/originalcon.png);
+        width: 372px;
+        max-height: 200px;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        margin: 30px;
+        *background-color: tomato;
+    }
+    
+    .img1 h3 {
+        font-size: 28px;
+        color: white;
+        font-family: Avenir, sans-serif;
+        line-height: 38px;
+        margin-top: 250px;
+        padding-left: 170px;
+    }
+    
+    .img1 p {
+        font-size: 18px;
+        line-height: 28px;
+        color: silver;
+        font-family: Avenir, sans-serif;
+        letter-spacing: .2px;
+        text-align: center;
+    }
+    
+    .img2 h3 {
+        font-size: 28px;
+        color: white;
+        font-family: Avenir, sans-serif;
+        line-height: 38px;
+        margin-top: 250px;
+        padding-left: 90px;
+    }
+    
+    .img2 p {
+        font-size: 18px;
+        line-height: 28px;
+        color: silver;
+        font-family: Avenir, sans-serif;
+        letter-spacing: .2px;
+        text-align: center;
+    }
+    
+    .img3 h3 {
+        font-size: 28px;
+        color: white;
+        font-family: Avenir, sans-serif;
+        line-height: 38px;
+        margin-top: 250px;
+        padding-left: 60px;
+    }
+    
+    .img3 p {
+        font-size: 18px;
+        line-height: 28px;
+        color: silver;
+        font-family: Avenir, sans-serif;
+        letter-spacing: .2px;
+        text-align: center;
+    }
+    
+    .img4 h3 {
+        font-size: 28px;
+        color: white;
+        font-family: Avenir, sans-serif;
+        line-height: 38px;
+        margin-top: 250px;
+        padding-left: 125px;
+    }
+    
+    .img4 p {
+        font-size: 18px;
+        line-height: 28px;
+        color: silver;
+        font-family: Avenir, sans-serif;
+        letter-spacing: .2px;
+        text-align: center;
+    }
+    
+    footer .pie {
+        width: 100%;
+        display: flex;
+    }
+    
+    nav {
+        justify-content: center
+    }
+    
+    .logofooter {
+        height: 70px;
+        background-image: url(../images/originallogo.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 4%;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .pie a {
+        font-size: 12px;
+        line-height: 22px;
+        color: silver;
+        text-decoration: none;
+        padding: 8px 12px;
+        font-family: Avenir, sans-serif;
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    footer p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 22px;
+        color: silver;
+        font-family: Avenir, sans-serif;
+    }
+    
+    @media only screen and (max-width: 1023px) {
+        section.caja1 {
+            width: 100%;
+        }
+        .caja1 {
+            background-image: url(../images/originalresponsive.jfif);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        section.caja2 {
+            width: 100%;
+        }
+        section.imagenizquierda {
+            background-image: url(../images/originaloplataformas.png);
+            width: 40%;
+            height: 50%;
+            background-size: cover;
+            margin-bottom: 50px;
+        }
+    }
